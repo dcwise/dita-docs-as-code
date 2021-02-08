@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<val>
+   
+    <prop action="include" att="product" val="COMMON"/>
+    <prop action="include" att="platform" val="Paddle"/>
+    <prop action="exclude" att="platform" val="iOCR"/>
+ 
+</val>

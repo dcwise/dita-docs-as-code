@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7B73445-63E5D52-251F157C1555417-5129F6">
+  <title>平台分析</title>
+  <shortdesc>支持用户搜索行为的平台分析功能，即对员工在平台内的搜索行为进行统计分析，包括搜索和点击情况、搜索统计表等。</shortdesc>
+  <conbody>
+    <p>
+      <fig>
+        <image href="../graphics/RFPSample_topic21_image002.png" />
+      </fig>
+    </p>
+    <p>搜索统计表以表格的形式展示平台的热门搜索、无结果搜索以及无点击搜索情况。</p>
+    <p>
+      <image href="../graphics/RFPSample_topic21_image004.png" />
+    </p>
+  </conbody>
+</concept>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "subjectScheme.dtd"> 
+<subjectScheme>
+    <subjectHead>
+        <subjectHeadMeta>
+            <navtitle>
+                <!-- Enter a description of the subject scheme. -->
+            </navtitle>
+        </subjectHeadMeta>
+    </subjectHead>
+    <hasInstance>
+        <subjectdef keys="compute">
+            <!-- A tree of related values -->
+            <subjectdef keys="cloudcompute">
+                <topicmeta>
+                    <navtitle>云服务器</navtitle>
+                </topicmeta>
+
+                <subjectdef keys="BCC">
+                    <topicmeta>
+                        <navtitle>BCC云服务器</navtitle>
+                    </topicmeta>
+                </subjectdef>
+                <subjectdef keys="DCC">
+                    <topicmeta>
+                        <navtitle>DCC专属服务器</navtitle>
+                    </topicmeta>
+                </subjectdef>
+            </subjectdef>
+            <subjectdef keys="COMMON">
+                <topicmeta>
+                    <navtitle>公用内容</navtitle>
+                </topicmeta>
+                
+                <subjectdef keys="GPU">
+                    <topicmeta>
+                        <navtitle>GPU服务器</navtitle>
+                    </topicmeta>
+                </subjectdef>
+            </subjectdef>
+
+        </subjectdef>
+        
+        <subjectdef keys="openplatform">
+            <!-- A tree of related values -->
+            <subjectdef keys="easyDL">
+                <topicmeta>
+                    <navtitle>EASYDL</navtitle>
+                </topicmeta>
+      
+            </subjectdef>
+         
+         
+            <subjectdef keys="iOCR">
+                <topicmeta>
+                    <navtitle>iOCR</navtitle>
+                </topicmeta>
+                
+            </subjectdef>
+            
+            
+            <subjectdef keys="Paddle">
+                <topicmeta>
+                    <navtitle>Paddle飞浆</navtitle>
+                </topicmeta>
+                
+            </subjectdef>
+        </subjectdef>
+    </hasInstance>
+    <enumerationdef>
+        <!-- Give the possible values for product. -->
+        <attributedef name="product"/>
+        <subjectdef keyref="compute"/>
+    </enumerationdef>
+    <enumerationdef>
+        <!-- We don't allow the platform profiling attribute to be used. -->
+        <attributedef name="platform"/>
+        <subjectdef keyref="openplatform"> </subjectdef>
+    </enumerationdef>
+</subjectScheme>

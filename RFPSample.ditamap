@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd"[
+
+<!-- Begin Document Specific Declarations -->
+<!-- End Document Specific Declarations -->
+
+]>
+<bookmap xml:lang="zh-CN" id="bookmap-1">
+  <title>XXX公司2020年IT建设知识库平台-智能企业搜索中台项目-技术文件</title>
+ 
+  <frontmatter>
+    <booklists>
+      <toc />
+    </booklists>
+  </frontmatter>
+  <chapter href="concepts/RFPSample_技术条款偏离表.dita" />
+  <chapter href="tasks/RFPSample_技术规范书点对点应答.dita" />
+  <chapter href="concepts/RFPSample_技术建议书.dita">
+    <topicref href="concepts/RFPSample_总体描述.dita">
+      <topicref href="concepts/RFPSample_背景.dita" />
+      <topicref href="tasks/RFPSample_现状分析.dita" />
+      <topicref href="tasks/RFPSample_项目建设目标.dita" />
+      <topicref href="tasks/RFPSample_项目建设原则.dita" />
+      <topicref href="tasks/RFPSample_项目建设周期.dita" />
+    </topicref>
+    <topicref href="concepts/RFPSample_项目总体设计.dita" product="COMMON">
+      <topicref href="concepts/RFPSample_总体架构设计.dita"/>
+      <topicref href="concepts/RFPSample_系统方案优势.dita"/>
+      <topicref href="tasks/RFPSample_核心底层技术说明.dita"/>
+      <topicref href="concepts/RFPSample_系统设计原则.dita"/>
+    </topicref>
+    <topicref href="concepts/RFPSample_系统本期详细建设方案.dita" product="COMMON">
+      <topicref href="concepts/RFPSample_用户端功能.dita"/>
+      <topicref href="concepts/RFPSample_知识图谱构建功能.dita"/>
+      <topicref href="tasks/RFPSample_知识搜索.dita"/>
+      <topicref href="concepts/RFPSample_管理端功能.dita"/>
+      <topicref href="concepts/RFPSample_词典管理.dita"/>
+      <topicref href="concepts/RFPSample_平台分析.dita"/>
+      <topicref href="concepts/RFPSample_用户权限管理.dita"/>
+    </topicref>
+    <topicref href="concepts/RFPSample_系统2_3期详细规划方案.dita" platform="Paddle">
+      <topicref href="concepts/RFPSample_规划方案综述.dita"/>
+      <topicref href="tasks/RFPSample_产品功能介绍.dita"/>
+      <topicref href="concepts/RFPSample_原有架构拓展.dita"/>
+      <topicref href="concepts/RFPSample_灵活对接第三方能力.dita"/>
+    </topicref>
+    <topicref href="concepts/RFPSample_系统集成关系.dita" platform="iOCR">
+      <topicref href="concepts/RFPSample_api.dita"/>
+      <topicref href="concepts/RFPSample_集成架构设计.dita"/>
+      <topicref href="concepts/RFPSample_集成类型介绍.dita"/>
+      <topicref href="concepts/RFPSample_主要集成技术.dita"/>
+      <topicref href="concepts/RFPSample_集成接口规范.dita"/>
+      <topicref href="concepts/RFPSample_常见集成表现形式.dita"/>
+    </topicref>
+    <topicref href="concepts/RFPSample_系统部署方案.dita">
+      <topicref href="concepts/RFPSample_系统部署架构.dita" />
+      <topicref href="concepts/RFPSample_软硬件配置说明.dita" />
+    </topicref>
+    <topicref href="concepts/RFPSample_系统软件功能清单.dita" />
+    <topicref href="concepts/RFPSample_工程进度表.dita">
+      <topicref href="concepts/RFPSample_工程实施计划.dita" />
+      <topicref href="concepts/RFPSample_项目人员说明.dita" />
+      <topicref href="concepts/RFPSample_项目经理说明.dita" />
+      <topicref href="concepts/RFPSample_工程分工界面.dita" />
+    </topicref>
+    <topicref href="concepts/RFPSample_项目实施方案.dita">
+      <topicref href="concepts/RFPSample_项目管理方法论.dita" />
+      <topicref href="concepts/RFPSample_项目组织及职责.dita" />
+      <topicref href="concepts/RFPSample_范围管理方案.dita" />
+      <topicref href="concepts/RFPSample_进度管理方案.dita" />
+      <topicref href="tasks/RFPSample_风险管理方案.dita" />
+      <topicref href="tasks/RFPSample_问题管理方案.dita" />
+      <topicref href="tasks/RFPSample_质量管理方案.dita" />
+    </topicref>
+    <topicref href="concepts/RFPSample_测试及验收.dita" product="COMMON">
+      <topicref href="concepts/RFPSample_测试方案.dita"/>
+      <topicref href="tasks/RFPSample_验收及输出方案.dita"/>
+      <topicref href="concepts/RFPSample_上线计划.dita"/>
+    </topicref>
+    <topicref href="tasks/RFPSample_技术文档.dita" />
+    <topicref href="concepts/RFPSample_技术支持及保修.dita" product="COMMON">
+      <topicref href="concepts/RFPSample_技术支持机构.dita"/>
+      <topicref href="concepts/RFPSample_专属大客户服务经理.dita"/>
+      <topicref href="concepts/RFPSample_基础运行保障服务.dita"/>
+      <topicref href="concepts/RFPSample_主动顾问式服务.dita"/>
+    </topicref>
+    <topicref href="tasks/RFPSample_培训计划.dita">
+      <topicref href="concepts/RFPSample_培训目标及要求.dita" />
+      <topicref href="concepts/RFPSample_培训对象.dita" />
+      <topicref href="concepts/RFPSample_培训准备.dita" />
+      <topicref href="concepts/RFPSample_培训内容.dita" />
+    </topicref>
+  </chapter>
+  <chapter href="concepts/RFPSample_其他.dita">
+    <topicref href="concepts/RFPSample_百度公司介绍.dita" />
+    <topicref href="concepts/RFPSample_百度abc_iot技术能力介绍.dita">
+      <topicref href="concepts/RFPSample_人工智能_ai_技术.dita" />
+      <topicref href="concepts/RFPSample_大数据_big_data_技术.dita" />
+      <topicref href="concepts/RFPSample_云计算_cloud_技术.dita" />
+      <topicref href="concepts/RFPSample_物联网_iot_技术.dita" />
+    </topicref>
+    <topicref href="concepts/RFPSample_百度人工智能优势.dita">
+      <topicref href="concepts/RFPSample_战略优势.dita" />
+      <topicref href="concepts/RFPSample_技术优势.dita" />
+    </topicref>
+  </chapter>
+  <chapter href="GTMSubjectScheme.ditamap" format="ditamap"/>
+</bookmap>
